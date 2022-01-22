@@ -1,28 +1,28 @@
 /* Variables */
 /* Mixin's */
 body {
-  background: #c1d72e;
+  background: #f3f3f3;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #fff;
+  color: #979797;
   height: 100%;
   text-align: center;
   font-size: 18px;
 }
 
-.wrappper {
+.wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-.wrappper:after {
+.wrapper:after {
   content: "";
   display: table;
   clear: both;
 }
 
 canvas {
-  color: #fff;
-  border: #fff dashed 2px;
+  color: #979797;
+  border: #979797 dashed 2px;
   padding: 15px;
 }
 
@@ -64,18 +64,18 @@ p {
   width: 35px;
   height: 30px;
   padding-top: 10px;
-  background: #fff;
-  color: #c1d72e;
+  background: #979797;
+  color: #f3f3f3;
   cursor: pointer;
   border-radius: 5px;
   -khtml-border-radius: 5px;
-  border: solid 1px #fff;
+  border: solid 1px #979797;
 }
 
 #alphabet li:hover {
-  background: #c1d72e;
-  border: solid 1px #fff;
-  color: #fff;
+  background: #f3f3f3;
+  border: solid 1px #979797;
+  color: #979797;
 }
 
 #my-word {
@@ -123,9 +123,9 @@ p {
 button {
   border-radius: 5px;
   -khtml-border-radius: 5px;
-  background: #c1d72e;
-  color: #fff;
-  border: solid 1px #fff;
+  background: #f3f3f3;
+  color: #979797;
+  border: solid 1px #979797;
   text-decoration: none;
   cursor: pointer;
   font-size: 1.2em;
@@ -138,9 +138,9 @@ button {
 button:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #fff;
-  border: solid 1px #fff;
-  color: #c1d72e;
+  background: #979797;
+  border: solid 1px #979797;
+  color: #f3f3f3;
 }
 
 @media (max-width: 767px) {
